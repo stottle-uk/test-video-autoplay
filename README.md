@@ -1,3 +1,9 @@
+# test-video-autoplay
+
+To demonstate how browsers block autoplay of media with sound - see [https://developers.google.com/web/updates/2017/09/autoplay-policy-changes](https://developers.google.com/web/updates/2017/09/autoplay-policy-changes)
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
