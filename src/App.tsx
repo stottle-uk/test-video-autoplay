@@ -48,6 +48,7 @@ class App extends React.Component<{}, State> {
         warningBitmovin: error
       })
     );
+    this.bitmovinPlayer.on(PlayerEvent.Error, error => console.log(error)); // No error is caught here!
 
     this.bitmovinPlayer.load(this.playerSource).then(
       () => {
